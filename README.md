@@ -7,6 +7,6 @@ Foi desenvolvido com:
 - CSS - Flexbox & Grid
 - Javascript - Uso de bibliotecas para animação como: typed.js & ScrollReveal
 
-Deploy: https://github.com/VitorOB/Desafio-2---JordanShoes
+Deploy: https://vitorob.github.io/Desafio-2---JordanShoes/
 
 <img src="./img/tela.gif">
