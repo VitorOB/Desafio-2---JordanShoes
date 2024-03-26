@@ -6,3 +6,5 @@ Foi desenvolvido com:
 - HTML
 - CSS - Flexbox & Grid
 - Javascript - Uso de bibliotecas para animação como: typed.js & ScrollReveal
+
+<img src="./img/tela.gif">
