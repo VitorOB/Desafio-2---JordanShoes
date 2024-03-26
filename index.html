@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="variaveis.css" />
+    <link rel="stylesheet" href="queries.css" />
+
+    <title>Jordan Shoes</title>
+  </head>
+
+  <body>
+    <main>
+      <section class="header">
+        <span>Frete grátis para todo o Brasil</span>
+      </section>
+
+      <section class="parallax">
+        <div class="banner">
+          <div class="logo">
+            <img src="./img/logo-jordan.png" alt="" />
+            <span id="element"> JordanShoes</span>
+          </div>
+          <h2 class="text">A melhor loja de Jordan</h2>
+          <p class="text">
+            O tênis Jordan é fruto de uma velha e forte parceria entre a Nike e
+            o jogador Michael Jordan.
+          </p>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="description">
+          <h2>Os melhores em um só lugar</h2>
+          <p>
+            A marca Jordan na JordanShoes é a escolha certa para os amantes de
+            sneakers que buscam estilo e conforto.
+          </p>
+        </div>
+        <!-- SEÇÃO COM OS PRODUTOS -->
+        <section class="products">
+          <div class="nike">
+            <img src="./img/1.png" alt="" />
+            <span class="product-name">Air Jordan 1 Mid Dutch Green</span>
+            <span class="product-description">Tênis Air Jordan</span>
+            <span class="product-price">R$ 1.199,99</span>
+          </div>
+          <div class="nike">
+            <img src="./img/2.png" alt="" />
+            <span class="product-name"
+              >Air Jordan 1 High Zoom CMFT Tropical Twist</span
+            >
+            <span class="product-description">Tênis Air Jordan</span>
+            <span class="product-price">R$ 1.049,00</span>
+          </div>
+          <div class="nike">
+            <img src="./img/3.png" alt="" />
+            <span class="product-name">Air Jordan 1 Mid Dutch Green</span>
+            <span class="product-description">Tênis Air Jordan</span>
+            <span class="product-price">R$ 1.350,00</span>
+          </div>
+          <div class="nike">
+            <img src="./img/4.png" alt="" />
+            <span class="product-name"
+              >Air Jordan 1 Mid GS "Light Smoke Grey"</span
+            >
+            <span class="product-description">Tênis Air Jordan</span>
+            <span class="product-price">R$ 1.585,00</span>
+          </div>
+          <div class="nike">
+            <img src="./img/5.png" alt="" />
+            <span class="product-name">Air Jordan 1 Mid SE Bright Citrus</span>
+            <span class="product-description">Tênis Air Jordan</span>
+            <span class="product-price">R$ 949,99</span>
+          </div>
+          <div class="nike">
+            <img src="./img/6.png" alt="" />
+            <span class="product-name">Air Jordan 1 Mid Grey Camo</span>
+            <span class="product-description">Tênis Air Jordan</span>
+            <span class="product-price">R$ 999,99</span>
+          </div>
+          <div class="nike">
+            <img src="./img/7.png" alt="" />
+            <span class="product-name">Air Jordan 1 Mid Grey</span>
+            <span class="product-description">Tênis Air Jordan</span>
+            <span class="product-price">R$ 999,99</span>
+          </div>
+          <div class="nike">
+            <img src="./img/8.png" alt="" />
+            <span class="product-name">Air Jordan 1 Mid Grey Black</span>
+            <span class="product-description">Tênis Air Jordan</span>
+            <span class="product-price">R$ 999,99</span>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span
+        >Desenvolvido por Vitor Otávio Barbosa - Desafio 2 por Iuri Silva</span
+      >
+    </footer>
+
+    <!-- SCRIPTS PARA ANIMAÇÃO DOS TEXTOS -->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      const sr = ScrollReveal({
+        origin: "top",
+        distance: "50px",
+        duration: 2000,
+        reset: true,
+      });
+    //   ScrollReveal().reveal(".container-post", { delay: 200 });
+    //   ScrollReveal().reveal(".date", { delay: 400 });
+      ScrollReveal().reveal(".text", { delay: 500 });
+      ScrollReveal().reveal(".description", { delay: 600 });
+    </script>
+
+
+    <!-- Element to contain animated typing -->
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["JordanShoes"],
+        typeSpeed: 80,
+      });
+    </script>
+  </body>
+</html>
